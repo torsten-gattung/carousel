@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  webserver:
+    image: nginx:latest
+    
+    ports:
+      - '8080:80' # expose 80 on host and sent to 80 in container
+    
+    volumes:
+      - ./html:/usr/share/nginx/html
