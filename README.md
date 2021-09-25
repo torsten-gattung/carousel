@@ -12,7 +12,12 @@ Download the js, html and css file and adapt them to your need.
 There is also a docker-compose file included, so you can easily test your development if needed with a basic nginx server.
 
 ## Example Slides
-
+* slide0.jpg:
+* slide1.jpg:
+* slide2.jpg:
+* slide3.jpg:
+* slide4.jpg:
+* slide5.jpg: 
 
 ## Icons in the Img-Directory
 https://icons.getbootstrap.com/ 

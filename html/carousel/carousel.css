@@ -29,19 +29,25 @@ html,body {
     transition: color 0.3s;
     border-radius: 50%;
     border: none;
-    background-color: transparent;
-    color: #ffe900;
+    /*background-color: transparent;*/
+    background-color: #ffe900;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .carousel-button:hover{
     color:rgba(255, 233, 0, 0.5);
 }
 
-/*.carousel-button-prev {
+.carousel-button-prev {
+    background-image: url('/img/chevron-right.svg');
+}
 
-}*/
 .carousel-button-next {
     right: 0;
+    background-image: url('/img/chevron-right.svg');
 }
 
 .slides {
